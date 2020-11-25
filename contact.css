@@ -1,0 +1,115 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(bloom001.bjpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: #22242A;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 140px;
+    margin: 5px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #1DC4E7;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right:8px ;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: #22242A ;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background:transparent ;
+    border-radius: 0;
+    text-align: left;
+}
+
+input[type=text], select,textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+
+input[type=submit] 
+{
+    background-color: lightblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    background-color: rgb(2, 16, 20);
+}
+.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+h1
+{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2px;
+}
+    
+h2{
+    font-size: 12px;
+    padding: 6px;
+    background-color: #f2f2f2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
